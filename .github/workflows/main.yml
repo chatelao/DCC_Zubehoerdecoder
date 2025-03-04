@@ -28,5 +28,5 @@ jobs:
       - name: Compile all examples
         uses: ArminJo/arduino-test-compile@v3
         with:
-          required-libraries: AccelStepper,Servo,DFRobotDFPlayerMini,U8g2,EncButton,NmraDcc
+          required-libraries: AccelStepper,Servo,DFRobotDFPlayerMini,U8g2,EncButton,NmraDcc,MobaTools
           arduino-board-fqbn: ${{ matrix.arduino-boards-fqbn }}
